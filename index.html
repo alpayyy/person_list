@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişi Listesi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kişi Listesi</h1>
+        <div class="filter">
+            <label for="filter">Ad Soyad ile Filtrele:</label>
+            <input type="text" id="filter">
+            <button onclick="filterList()">Filtrele</button>
+        </div>
+        <div class="person-list-container">
+        <ul id="person-list">
+            <!-- Kişiler burada listelenecek -->
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
