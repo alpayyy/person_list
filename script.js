@@ -1,10 +1,10 @@
-let data; // Declare 'data' as a global variable
+let data; 
 
 document.addEventListener('DOMContentLoaded', function () {
   fetch('person-list.json')
     .then(response => response.json())
     .then(jsonData => {
-      data = jsonData.personList; // Assign 'personList' from JSON data to the global variable 'data'
+      data = jsonData.personList; 
       const personList = document.getElementById('person-list');
       updatePersonList(personList, data);
     })
