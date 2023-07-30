@@ -39,8 +39,8 @@ label {
 }
 
 .person-list-container {
-    max-height: 300px; /* Yükseklik değeri isteğe bağlı olarak ayarlanabilir */
-    overflow-y: auto; /* Kaydırma için overflow özelliği ekleniyor */
+    max-height: 300px; 
+    overflow-y: auto; 
     border: 1px solid #ccc;
     border-radius: 5px;
 }
